@@ -18,7 +18,9 @@ const Header = () => {
         <div className="Bg"></div>
         <div className="mainBanner">
         <div className="mainBannerFlex">
-            <div className="bigCircle"></div>
+            <div className="bigCircle">
+            <img src={process.env.PUBLIC_URL+"/content.png"} alt="logo"/>
+            </div>
             <p>Starts in 3days: 2hours : 24minutes</p>
             <div className="smallLi"><span className="popOne">Not Live</span><span className="popTwo">Layer Auction</span></div>
         </div>
