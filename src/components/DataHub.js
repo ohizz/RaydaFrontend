@@ -1,6 +1,7 @@
 import React from "react";
 
 const DataHub = ({name, title, image, bid}) => {
+ 
     return(
         <div className="mainCard">
      <div className="card">
