@@ -1,0 +1,110 @@
+*,*:after,*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:  poppins;
+  /* font-size: 10px; */
+ }
+.App{
+  max-width: 1250px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.cardBackground{
+  padding: 1.5rem;
+  gap: 1rem;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+.mainCard{
+  height: 340px;
+}
+.card {
+  /* height: 340px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border: 1px solid #EAECF0;
+  border-radius: 12px;
+  padding: .5rem
+}
+
+.imgBackground{
+  background-color: #F2F4F7;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1.5rem;
+}
+.dataImage{
+  background: #333;
+  margin-bottom: .3rem;
+  height: 100px;
+  width: 100px;
+}
+
+.dataName{
+  font-size: .6rem;
+  margin: .7rem 0;
+  flex-basis: 100%;
+  display: flex;
+}
+
+.dataName span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ko{
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  background-color: #F2F4F7;
+  border-radius: 50%;
+  line-height: 25px;
+}
+
+.koray{
+  display: flex;
+  margin: 0 .4rem;
+}
+
+.bidder{
+  display: flex;
+  
+}
+.dataTitle{
+  font-size: .7rem;
+  margin: .4rem 0;
+  /* width: 100px; */
+  height: 30px;
+}
+.dataBid{
+  margin: .3rem 0 ;
+  font-size: .6rem;
+  border-bottom: 1px solid #EAECF0;
+  margin: .5rem 0;
+  padding: .5rem 0;
+}
+
+.bidder{
+  color: #F2F4F7;
+}
+.dataButton{
+  background: #004CCC;
+  border: 1px solid #004CCC;
+  color: white;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 12px;
+  font-family: poppins;
+}
