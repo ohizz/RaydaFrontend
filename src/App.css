@@ -6,12 +6,14 @@
   margin: 0;
   padding: 0;
   font-family: 'IBM Plex Sans', sans-serif;
-  /* font-size: 10px; */
  }
+
+
 .App{
   max-width: 1250px;
   margin: 0 auto;
   width: 95%;
+  margin-bottom: 4rem;
 }
 
 button:hover{
@@ -25,7 +27,11 @@ button:hover{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #EAECF0;
+ }
 
+ .leftHead p {
+  margin-top: .7rem;
+  color: #475467;
  }
 .numberTwo{
   position: absolute;
@@ -43,7 +49,7 @@ button:hover{
 }
 
  .banner{
-  height: 50vh;
+  height: 330px;
   position: relative;
   border: 1px solid #EAECF0;
   padding: 0 1.3rem;
@@ -55,8 +61,11 @@ button:hover{
 
  .Bg{
   position: relative;
-  background: linear-gradient(to right, blueviolet, #ed8f50);
   height: 192px;
+  background: #544a7d;
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);
+  background: linear-gradient(to left, #ffd452, blueviolet);
+
   /* left: -112px; */
   top: 20px;
   padding: 2rem;
@@ -99,6 +108,8 @@ button:hover{
   top: 30px;
   right: 256px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainBannerFlex p {
@@ -109,7 +120,7 @@ button:hover{
 .popOne{
   background: #f7e3d8;
   color: #F79009;
-  margin-right: .5rem;
+  margin-right: 1rem;
   padding: .1rem .5rem .1rem 1.2rem;
   border-radius: 12px;
   position: relative;
